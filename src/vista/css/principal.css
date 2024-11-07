@@ -1,0 +1,65 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/*etiqueta boton */
+
+.root {
+	-fx-background-color:  #5dade2;
+	-fx-font-family: sans-serif;
+}
+
+.fx:include {
+	-fx-border-width: 25px;
+	-fx-border-color: #ffffff;
+}
+
+.etiqueta {
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+
+.boton {
+	-fx-background-color: #1b4990;
+	-fx-text-fill: white;
+}
+
+.nombreMunicipio {
+	-fx-font-size: 32px;
+	-fx-text-alignment: center;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+
+/*Campo de texto autocompletado */
+.text-input {
+	-fx-background-color: #1b4990;
+	-fx-text-fill: white;
+}
+
+.auto-complete-popup .list-view .list-cell {
+	-fx-background-color: #1b4990;
+	-fx-text-fill: white;
+}
+
+.auto-complete-popup .list-cell:selected {
+	-fx-background-color: #1b4990;
+	-fx-text-fill: black;
+}
+
+/*COMBO-BOX */
+.combo-box .list-cell {
+	-fx-text-fill: white;
+}
+
+.combo-box .list-view .list-cell {
+	-fx-text-fill: white;
+	-fx-background-color: #1b4990;
+}
+
+.combo-box .list-view .list-cell:focused {
+	-fx-background-color: #95b6e9;
+	-fx-text-fill: black;
+}
+
+.combo-box .list-view .list-cell:hover {
+	-fx-background-color: #95b6e9;
+	-fx-text-fill: black;
+}

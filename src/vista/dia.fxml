@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Fondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: #95b6e9; -fx-background-radius: 15;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.diaController">
+   <children>
+      <Label fx:id="Fecha" alignment="CENTER" layoutX="13.0" layoutY="14.0" prefHeight="17.0" prefWidth="174.0" text="Fecha">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <ImageView fx:id="EstadoImg" fitHeight="70.0" fitWidth="70.0" layoutX="65.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="EstadoCielo" alignment="TOP_CENTER" layoutX="13.0" layoutY="101.0" prefHeight="34.0" prefWidth="174.0" text="EstadoCielo" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="TempActual" alignment="CENTER" layoutX="152.0" layoutY="163.0" prefHeight="18.0" prefWidth="40.0" text="20º">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="TempMin" layoutX="97.0" layoutY="179.0" prefHeight="17.0" prefWidth="27.0" text="10º">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="TempMax" layoutX="97.0" layoutY="143.0" prefHeight="17.0" prefWidth="27.0" text="30º">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <ImageView fx:id="dirVientoImg" fitHeight="35.0" fitWidth="35.0" layoutX="24.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="DireccionViento" alignment="CENTER" layoutY="144.0" prefHeight="17.0" prefWidth="83.0" text="Dir viento" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="VelocidadViento" alignment="CENTER" layoutY="176.0" prefHeight="17.0" prefWidth="83.0" text="Vel viento">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="ProbabilidadPrecipitacion" alignment="CENTER_RIGHT" layoutX="51.0" layoutY="226.0" prefHeight="17.0" prefWidth="35.0" text="50%">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="UVmax" alignment="CENTER" layoutX="60.0" layoutY="348.0" prefHeight="34.0" prefWidth="129.0" text="11 - Extremadamente alto" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <ImageView fx:id="imgTermometro" fitHeight="54.0" fitWidth="56.0" layoutX="111.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/termometro.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="HumedadMax" alignment="CENTER_RIGHT" layoutX="51.0" layoutY="281.0" prefHeight="17.0" prefWidth="35.0" text="50%">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="HumedadMin" alignment="CENTER_RIGHT" layoutX="51.0" layoutY="308.0" prefHeight="17.0" prefWidth="35.0" text="0%">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <ImageView fx:id="imgHumedad" fitHeight="54.0" fitWidth="43.0" layoutX="13.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/humedad.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgLluvia" fitHeight="54.0" fitWidth="43.0" layoutX="13.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/lluvia.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgUv" fitHeight="54.0" fitWidth="43.0" layoutX="13.0" layoutY="343.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/ultravioleta.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgSensTermica" fitHeight="54.0" fitWidth="43.0" layoutX="111.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/sensación%20termica.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="SensTermicaMin" alignment="CENTER_RIGHT" layoutX="152.0" layoutY="309.0" prefHeight="17.0" prefWidth="35.0" text="10º">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="SensTermicaMax" alignment="CENTER_RIGHT" layoutX="152.0" layoutY="282.0" prefHeight="17.0" prefWidth="35.0" text="30º">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <ImageView fx:id="imgCotaNieve" fitHeight="54.0" fitWidth="43.0" layoutX="111.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/nevando.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="CotaNieve" alignment="CENTER" layoutX="158.0" layoutY="226.0" prefHeight="17.0" prefWidth="35.0" text="10000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

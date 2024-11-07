@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1480.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.principalController">
+   <children>
+      <Button fx:id="botonBuscar" focusTraversable="false" layoutX="432.0" layoutY="246.0" mnemonicParsing="false" styleClass="boton" text="Buscar" />
+      <fx:include fx:id="dia_7" source="dia.fxml" AnchorPane.leftAnchor="1270.0" AnchorPane.topAnchor="335.0" />
+      <fx:include fx:id="dia_6" source="dia.fxml" AnchorPane.leftAnchor="1060.0" AnchorPane.topAnchor="335.0" />
+      <fx:include fx:id="dia_5" source="dia.fxml" AnchorPane.leftAnchor="850.0" AnchorPane.topAnchor="335.0" />
+      <fx:include fx:id="dia_4" source="dia.fxml" AnchorPane.leftAnchor="640.0" AnchorPane.topAnchor="335.0" />
+      <fx:include fx:id="dia_3" source="dia.fxml" AnchorPane.leftAnchor="430.0" AnchorPane.topAnchor="335.0" />
+      <fx:include fx:id="dia_2" source="dia.fxml" AnchorPane.leftAnchor="220.0" AnchorPane.topAnchor="335.0" />
+      <fx:include fx:id="dia_1" source="dia.fxml" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="335.0" />
+      <TextField fx:id="CampoTexto" focusTraversable="false" layoutX="219.0" layoutY="246.0" prefHeight="25.0" prefWidth="200.0" AnchorPane.leftAnchor="220.0" />
+      <ImageView fitHeight="129.0" fitWidth="349.0" layoutX="74.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true" styleClass="imagen">
+         <image>
+            <Image url="@icon/aemet-logo.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="comboComunidad" layoutX="714.0" layoutY="246.0" prefHeight="25.0" prefWidth="200.0" styleClass="boton" />
+      <Label layoutX="783.0" layoutY="218.0" styleClass="etiqueta" text="Comunidad" />
+      <ComboBox fx:id="comboProvincia" layoutX="965.0" layoutY="246.0" prefHeight="25.0" prefWidth="200.0" styleClass="boton" />
+      <Label layoutX="1041.0" layoutY="218.0" styleClass="etiqueta" text="Provincia" />
+      <ComboBox fx:id="comboMunicipio" layoutX="1208.0" layoutY="246.0" prefHeight="25.0" prefWidth="200.0" styleClass="boton" />
+      <Label layoutX="1282.0" layoutY="218.0" styleClass="etiqueta" text="Municipio" />
+      <Label fx:id="NombreMunicipio" alignment="CENTER" layoutX="431.0" layoutY="98.0" prefHeight="46.0" prefWidth="618.0" styleClass="nombreMunicipio" text="MunicipioMunicipioMunicipioMunicipioMunicipioMunicipio" wrapText="true" />
+      <Button fx:id="botonAcercaDe" focusTraversable="false" layoutX="60.0" layoutY="246.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" styleClass="boton" text="Acerca de" />
+   </children>
+</AnchorPane>
