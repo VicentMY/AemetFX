@@ -4,6 +4,7 @@ Aplicación del tiempo hecha con JavaFx usando datos meteorológicos conseguidos
 Con esta aplicación puedes ver la previsión del tiempo para los 7 siguientes dias *contando también el actual* en un formato reducido.
 
 ## Instrucciones
+* Necesitarás Java JDK 17.0.10 y JavaFX SDK 22 o superior para ejecutar la aplicación.
 * Descarga el repositorio como .zip y extrae todo en una carpeta.
 * Dentro de la carpeta edita el fichero *Aemet.run* para que la variable *JAVAFX* sea la ruta de tu librería de JavaFx y guarda el fichero.
 * Haz que el fichero sea ejecutable con el comando *chmod*.
